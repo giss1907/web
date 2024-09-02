@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes de La Luna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        #sidebar {
+            width: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: #1c1c1c;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+        }
+        #sidebar a {
+            text-decoration: none;
+            color: #00bcd4;
+            margin: 20px 0;
+            text-align: center;
+        }
+        #sidebar a:hover {
+            color: #ffffff;
+        }
+        .icon {
+            font-size: 30px;
+        }
+        #content {
+            margin-left: 80px;
+            padding: 20px;
+        }
+        h1 {
+            color: #00bcd4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #00bcd4;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <a href="index.html" title="Inicio"><span class="icon">🏠</span></a>
+        <a href="texto2.html" title="Texto"><span class="icon">📝</span></a>
+        <a href="imagen2.html" title="Imagen"><span class="icon">🌕</span></a>
+        <a href="video2.html" title="Video"><span class="icon">🎥</span></a>
+        <a href="audio2.html" title="Audio"><span class="icon">🎵</span></a>
+        <a href="archivo2.html" title="Archivo"><span class="icon">📁</span></a>
+    </div>
+    <div id="content">
+        <h1>Imagen de La Luna</h1>
+        <img src="https://i.pinimg.com/564x/5d/2b/ba/5d2bba282eb80db21ff92f65521bd124.jpg" alt="La Luna">
+    </div>
+</body>
+</html>
